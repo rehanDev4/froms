@@ -21,16 +21,16 @@
            <option >USA</option>
     </select>
     
-    <!-- <br><br>
+    <br><br>
     <h3>Gender:</h3>
     <input type="radio" value="Male" name="gender" v-model="form.gender" >
     <label >Male</label>
     <br><br>
     <input type="radio" value="Female" name="gender"  v-model="form.gender" >
     <label >Female</label>
-    <br><br> -->
+    <br><br>
   
-    <!-- <h3>Technology:</h3>
+    <h3>Technology:</h3>
     <input type="checkbox" value="JAVA" v-model="form.technology" >
     <label >Java</label>
     <br><br>
@@ -39,7 +39,7 @@
     <br><br>
     <input type="checkbox" value="JS" v-model="form.technology" >
     <label >JavaScript</label>
-      <br><br> -->
+      <br><br>
     <button v-on:click="logIn" type="button">login</button>
 
 </form>
